@@ -1,0 +1,140 @@
+<html>
+
+<head>
+    <!-- Título da aba do navegador -->
+    <title>Contatos Chico's Burguer</title>
+
+    <!-- Importa o CSS -->
+    <link rel="stylesheet" href="CSS/estilos_contatos.css">
+
+    <!-- Ícones do WhatsApp e Instagram -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Codificação -->
+    <meta charset="UTF-8" />
+
+    <!-- Ícone da aba do navegador -->
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+
+
+</head>
+
+
+<body>
+    <!-- ============================
+                    HEADER
+        ============================= -->
+    <header class="header">
+
+        <!-- Logo da hamburgueria -->
+        <img src="img/logo3.png" title="Site do Chico" class="logo" />
+
+        <!-- Menu de navegação -->
+        <nav class="nav-box">
+
+            <ul class="nav-list">
+
+                <!-- Link para a página inicial -->
+                <li><a href="index.html" class="nav-item">Home</a></li>
+
+                <!-- Link para a página de produtos -->
+                <li><a href="produtos.html" class="nav-item">Produtos</a></li>
+
+                <!-- Link para a página de contatos -->
+                <li><a href="contatos.html" class="nav-item">Contato</a></li>
+
+            </ul>
+
+        </nav>
+        <!-- Fim do menu de navegação -->
+    </header>
+    <!-- ============================
+                FIM DO HEADER
+    ============================ -->
+    <main>
+
+        <h1 class="contatos">
+            Contatos
+        </h1>
+        
+
+        <p class="subtitulo">Entre em contato com a gente!😉 <br><br>
+            <strong>Crie seu cadastro aqui!</strong>
+        </p>
+
+
+        <form id="frmContato">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label>* Nome e sobrenome</label>
+                <input class="inputs" type="text" id="nomesobrenome" name="" class="input-padrao" required placeholder="Digite seu nome completo">
+
+                <br><br>
+
+                <label>E-mail</label>
+                <input class="inputs" type="email" id="email" name="" class="input-padrao" placeholder="Digite seu E-mail">
+
+                <br><br>
+
+                <label>Telefone</label>
+                <input class="inputs" type="tel" id="telefone" name="" class="input-padrao" placeholder="(XX) XXXXX-XXXX">
+
+                <br><br>
+
+                <label>* Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao inputs" required></textarea>
+
+                <br>
+
+                <label>Como prefere o nosso contato?
+                    <input type="radio" value="radio-mail" name="Contato"> E-mail
+                    <input type="radio" value="radio-telefone" name="Contato"> Telefone
+                    <input type="radio" value="radio-whatsapp" name="Contato"> Whatsapp
+                </label>
+
+                <br>
+                <label>Qual o motivo do seu contato?
+                    <select>
+                        <option>Selecione</option>
+                        <option>Dúvida</option>
+                        <option>Sugestão</option>
+                        <option>Elogio</option>
+                        <option>Reclamação</option>
+                    </select>
+                </label>
+                <br>
+            </fieldset>
+
+            <label><input type="checkbox" class="chk" > Gostaria de receber nossas novidades por e-mail?</label>
+
+            <input type="submit" id="enviar" value="Enviar formulário" class="enviar">
+        </form>
+
+    </main>
+
+<!-- ============================
+                    FOOTER
+ ============================= -->
+    <footer>
+        <!-- Logo no rodapé -->
+        <img src="img/logo4.png"/>
+        <!--icones e links rodapé-->
+        <div class="links_footer">
+            <p>Faça seu pedido!</p>
+            <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp icon-whats"></i>(11) 98765-4321</a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram icon-insta"></i>chicosburger</a>
+        </div>
+        <!--grupo-->
+        <div class="grupo">
+            <li><a href="https://github.com/pedpalma" target="_blank">Pedro Francisco Palma</a></li>
+            <li><a href="https://github.com/Kaique-ms27" target="_blank">Kaique Magalhães</a></li>
+            <li><a href="https://github.com/qziacode" target="_blank">Quézia Freire</a></li>
+            <li><a href="https://github.com/vinicius-lobo" target="_blank">Vinicius Lôbo</a></li>
+        </div>
+    </footer>
+<!-- ============================
+            FIM DO FOOTER
+     ============================= -->
+</body>
+
+</html>
